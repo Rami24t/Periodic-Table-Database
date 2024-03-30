@@ -1,2 +1,2 @@
-# Periodic-Table-Database
-  This is one of the required projects to earn your certification. For this project, you will create Bash a script to get information about chemical elements from a periodic table database. 
+# Relational Database  |  Periodic-Table-Database
+ For this project, I needed to fix and develop a PostgreSQL periodic table database and then create a bash script program that retrieves information from the database based on an argument.
