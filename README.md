@@ -5,7 +5,7 @@
 
 I was started with a periodic_table database that has information about some chemical elements and have completed all of the "Periodic Table Database" tasks and user stories listed below in order to finish the project. After getting all the tests to pass, I have saved a copy of [my PostgreSQL database dump file 'periodic_table.sql' of my solution's database](https://github.com/Rami24t/Periodic-Table-Database/blob/main/periodic_table.sql), as well as of [the final version of 'element.sh', my solution's bash script file](https://github.com/Rami24t/Periodic-Table-Database/blob/main/element.sh) into this public repository.
 
-Note:  I made the periodic_table.sql PostgreSQL database dump file of my resulting database using pg_dump by entering 'pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql' in the bash terminal. It saves the commands to rebuild the database. The database can be rebuilt by using: 'psql -U postgres < periodic_table.sql'.
+Note:  I made the periodic_table.sql PostgreSQL database dump file of my resulting database using pg_dump by entering 'pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql' in the bash terminal. It saves the commands to rebuild the database from the .sql file using: 'psql -U postgres < periodic_table.sql'.
 
 ### Tasks & User Stories: Fix the database, Create your git repository, and Create the script
 
