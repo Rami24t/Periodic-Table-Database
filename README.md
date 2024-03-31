@@ -6,6 +6,10 @@
 I was started with a periodic_table database that has information about some chemical elements and have completed all of the "Periodic Table Database" tasks and user stories listed below in order to finish the project. After getting all the tests to pass, I have saved a copy of [my PostgreSQL database dump file 'periodic_table.sql' of my solution's database](https://github.com/Rami24t/Periodic-Table-Database/blob/main/periodic_table.sql), as well as of [the final version of 'element.sh', my solution's bash script file](https://github.com/Rami24t/Periodic-Table-Database/blob/main/element.sh) into this public repository.
 
 
+### Note
+
+I made the periodic_table.sql PostgreSQL database dump file of my resulting database using pg_dump by entering 'pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql' in the bash terminal. It saves the commands to rebuild the database in periodic_table.sql. The database can be rebuilt by entering the 'psql -U postgres < periodic_table.sql' command in a terminal where the .sql file is.
+
 
 ### Fix the database, Create your git repository, and Create the script
 
@@ -49,8 +53,4 @@ When you have completed the project, save all the required files into a public r
 -     The rest of the commit messages should start with fix:, feat:, refactor:, chore:, or test:
 -     delete the non existent element, whose atomic_number is 1000, from the two tables
 -     properties table should not have a type column
--     finish your project while on the main branch. Your working tree should be clean and you should not have any uncommitted changes  
-
-#### Note 
-
-I made the periodic_table.sql PostgreSQL database dump file of my resulting database using pg_dump by entering 'pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql' in the bash terminal. It saves the commands to rebuild the database in periodic_table.sql. You can rebuild the database by entering the 'psql -U postgres < periodic_table.sql' command in a terminal where the .sql file is.
+-     finish your project while on the main branch. Your working tree should be clean and you should not have any uncommitted changes
