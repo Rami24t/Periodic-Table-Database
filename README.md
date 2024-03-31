@@ -17,6 +17,7 @@ You need to make a small bash program. The code needs to be version controlled w
 Lastly, you need to make a script that accepts an argument in the form of an atomic number, symbol, or name of an element and outputs some information about the given element.
 
 #### Tasks & User Stories
+
 -     rename the weight column to atomic_mass
 -     rename the melting_point column to melting_point_celsius and the boiling_point column to boiling_point_celsius
 -     melting_point_celsius and boiling_point_celsius columns should not accept null values
@@ -49,4 +50,7 @@ Lastly, you need to make a script that accepts an argument in the form of an ato
 -     finish your project while on the main branch. Your working tree should be clean and you should not have any uncommitted changes
 -     When you have completed the project, save all the required files into a public repository and submit the URL to it.
   
- Note: I made the periodic_table.sql PostgreSQL database dump file of my resulting database using pg_dump by entering 'pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql' in the bash terminal. It saves the commands to rebuild the database in periodic_table.sql. You can rebuild the database by entering the 'psql -U postgres < periodic_table.sql' command in a terminal where the .sql file is.
+
+#### Note 
+
+I made the periodic_table.sql PostgreSQL database dump file of my resulting database using pg_dump by entering 'pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql' in the bash terminal. It saves the commands to rebuild the database in periodic_table.sql. You can rebuild the database by entering the 'psql -U postgres < periodic_table.sql' command in a terminal where the .sql file is.
