@@ -15,6 +15,7 @@ You need to make a small bash program. The code needs to be version controlled w
 
 Lastly, you need to make a script that accepts an argument in the form of an atomic number, symbol, or name of an element and outputs some information about the given element.
 
+When you have completed the project, save all the required files into a public repository and submit its URL.
 
 
 #### Tasks & User Stories
@@ -48,9 +49,7 @@ Lastly, you need to make a script that accepts an argument in the form of an ato
 -     The rest of the commit messages should start with fix:, feat:, refactor:, chore:, or test:
 -     delete the non existent element, whose atomic_number is 1000, from the two tables
 -     properties table should not have a type column
--     finish your project while on the main branch. Your working tree should be clean and you should not have any uncommitted changes
--     When you have completed the project, save all the required files into a public repository and submit the URL to it.
-  
+-     finish your project while on the main branch. Your working tree should be clean and you should not have any uncommitted changes  
 
 #### Note 
 
