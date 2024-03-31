@@ -14,7 +14,7 @@ You need to make a small bash program. The code needs to be version controlled w
 ### Part 3: Create the script
 Lastly, you need to make a script that accepts an argument in the form of an atomic number, symbol, or name of an element and outputs some information about the given element.
 
-#### User Stories / Tasks / Tests
+#### Tasks & User Stories
 -     rename the weight column to atomic_mass
 -     rename the melting_point column to melting_point_celsius and the boiling_point column to boiling_point_celsius
 -     melting_point_celsius and boiling_point_celsius columns should not accept null values
@@ -46,5 +46,5 @@ Lastly, you need to make a script that accepts an argument in the form of an ato
 -     properties table should not have a type column
 -     finish your project while on the main branch. Your working tree should be clean and you should not have any uncommitted changes
 
-##### Notes:
-If you leave your virtual machine, your database may not be saved. You can make a dump of it by entering pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql in a bash terminal. It will save the commands to rebuild your database in periodic_table.sql. The file will be located where the command was entered. If it's anything inside the project folder, the file will be saved in the VM. You can rebuild the database by entering psql -U postgres < periodic_table.sql in a terminal where the .sql file is.
+##### Given Notes
+ You can make a dump of your database by entering pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql in a bash terminal. It will save the commands to rebuild your database in periodic_table.sql. The file will be located where the command was entered. If it's anything inside the project folder, the file will be saved in the VM. You can rebuild the database by entering psql -U postgres < periodic_table.sql in a terminal where the .sql file is.
