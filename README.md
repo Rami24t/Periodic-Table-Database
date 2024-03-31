@@ -3,7 +3,7 @@
 
 ## Completed User Stories and Followed Instructions
 
-I was started with a periodic_table database that has information about some chemical elements and have completed all of the "Periodic Table Database" tasks and user stories below in order to finish the project. After getting all the tests to pass, I saved a copy of the dump file of my solution's database (periodic_table.sql), as well as the final version of my solution's 'element.sh' bash script file, into this public repository.
+I was started with a periodic_table database that has information about some chemical elements and have completed all of the "Periodic Table Database" tasks and user stories below in order to finish the project. After getting all the tests to pass, I saved [a copy of the dump file of my solution's database (periodic_table.sql)](https://github.com/Rami24t/Periodic-Table-Database/blob/main/element.sh), as well as the final version of my solution's 'element.sh' bash script file, into this public repository.
 
 -     rename the weight column to atomic_mass
 -     rename the melting_point column to melting_point_celsius and the boiling_point column to boiling_point_celsius
