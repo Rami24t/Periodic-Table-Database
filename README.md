@@ -5,6 +5,8 @@
 
 I was started with a periodic_table database that has information about some chemical elements and have completed all of the "Periodic Table Database" tasks and user stories listed below in order to finish the project. After getting all the tests to pass, I have saved a copy of [my PostgreSQL database dump file 'periodic_table.sql' of my solution's database](https://github.com/Rami24t/Periodic-Table-Database/blob/main/periodic_table.sql), as well as of [the final version of 'element.sh', my solution's bash script file](https://github.com/Rami24t/Periodic-Table-Database/blob/main/element.sh) into this public repository.
 
+
+
 ### Part 1: Fix the database
 There are some mistakes in the database that need to be fixed or changed. See the user stories below for what to change.
 
