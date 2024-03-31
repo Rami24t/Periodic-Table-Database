@@ -55,4 +55,4 @@ Congratulations on completing the "Periodic Table Database" tasks below!
 -    The rest of the commit messages should start with fix:, feat:, refactor:, chore:, or test:
 -    You should delete the non existent element, whose atomic_number is 1000, from the two tables
 -    Your properties table should not have a type column
--     You should finish your project while on the main branch. Your working tree should be clean and you should not have any uncommitted changes
+-    You should finish your project while on the main branch. Your working tree should be clean and you should not have any uncommitted changes
