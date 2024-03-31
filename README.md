@@ -49,5 +49,4 @@ Lastly, you need to make a script that accepts an argument in the form of an ato
 -     finish your project while on the main branch. Your working tree should be clean and you should not have any uncommitted changes
 -     When you have completed the project, save all the required files into a public repository and submit the URL to it.
   
-##### Given Notes
- You can make a dump of your database by entering pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql in a bash terminal. It will save the commands to rebuild your database in periodic_table.sql. The file will be located where the command was entered. If it's anything inside the project folder, the file will be saved in the VM. You can rebuild the database by entering psql -U postgres < periodic_table.sql in a terminal where the .sql file is.
+ Note: I made the dump file of my resulting database by entering 'pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql' in the bash terminal. I saved the commands to rebuild my database in periodic_table.sql. You can rebuild the database by entering psql -U postgres < periodic_table.sql in a terminal where the .sql file is.
