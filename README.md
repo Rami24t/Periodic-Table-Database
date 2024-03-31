@@ -7,7 +7,6 @@ I was started with a periodic_table database that has information about some che
 
 
 #### Note
-
 I made the periodic_table.sql PostgreSQL database dump file of my resulting database using pg_dump by entering 'pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql' in the bash terminal. It saves the commands to rebuild the database in periodic_table.sql. The database can be rebuilt by entering the 'psql -U postgres < periodic_table.sql' command in a terminal where the .sql file is.
 
 
