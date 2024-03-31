@@ -3,7 +3,7 @@
 
 ## Completed User Stories and Followed Instructions
 
-I was started with a periodic_table database that has information about some chemical elements and have completed all of the following "Periodic Table Database" tasks and user stories in order to finish the project:
+I was started with a periodic_table database that has information about some chemical elements and have completed all of the "Periodic Table Database" tasks and user stories below in order to finish the project. After getting all the tests to pass, I saved a dump of my solution's database (the periodic_table.sql file), as well as the final version of my solution's element.sh file, in this public repository.
 
 -     rename the weight column to atomic_mass
 -     rename the melting_point column to melting_point_celsius and the boiling_point column to boiling_point_celsius
@@ -47,5 +47,3 @@ Lastly, you need to make a script that accepts an argument in the form of an ato
 
  Notes:
 If you leave your virtual machine, your database may not be saved. You can make a dump of it by entering pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql in a bash terminal (not the psql one). It will save the commands to rebuild your database in periodic_table.sql. The file will be located where the command was entered. If it's anything inside the project folder, the file will be saved in the VM. You can rebuild the database by entering psql -U postgres < periodic_table.sql in a terminal where the .sql file is.
-
- If you are saving your progress on freeCodeCamp.org, after getting all the tests to pass, follow the instructions above to save a dump of your database. Save the periodic_table.sql file, as well as the final version of your element.sh file, in a public repository and submit the URL to it on freeCodeCamp.org.
