@@ -1,7 +1,7 @@
 # fCC Relational Database Certification |  Periodic Table Database Project
  For this project, I needed to fix and develop a PostgreSQL periodic table database and then create a bash script program that retrieves information from the database based on a user-provided argument.
 
-## Instructions and Completed User Stories
+## Completed User Stories and Followed Instructions
 
 I was started with a periodic_table database that has information about some chemical elements and have completed all of the following "Periodic Table Database" tasks and user stories in order to finish the project:
 
