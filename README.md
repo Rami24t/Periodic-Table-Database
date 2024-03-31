@@ -17,7 +17,7 @@ You need to make a small bash program. The code needs to be version controlled w
 
 You need to make a script that accepts an argument in the form of an atomic number, symbol, or name of an element and outputs some information about the given element.
 
-When you have completed the project, save all the required files into a public repository and submit its URL.
+When you have completed the project, save all the required files into a public repository.
 
 
 -     rename the weight column to atomic_mass
