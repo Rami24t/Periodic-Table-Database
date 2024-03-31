@@ -5,6 +5,15 @@
 
 I was started with a periodic_table database that has information about some chemical elements and have completed all of the "Periodic Table Database" tasks and user stories listed below in order to finish the project. After getting all the tests to pass, I have saved a copy of [my PostgreSQL database dump file 'periodic_table.sql' of my solution's database](https://github.com/Rami24t/Periodic-Table-Database/blob/main/periodic_table.sql), as well as of [the final version of 'element.sh', my solution's bash script file](https://github.com/Rami24t/Periodic-Table-Database/blob/main/element.sh) into this public repository.
 
+### Part 1: Fix the database
+There are some mistakes in the database that need to be fixed or changed. See the user stories below for what to change.
+
+### Part 2: Create your git repository
+You need to make a small bash program. The code needs to be version controlled with git, so you will need to turn the suggested folder into a git repository.
+
+### Part 3: Create the script
+Lastly, you need to make a script that accepts an argument in the form of an atomic number, symbol, or name of an element and outputs some information about the given element.
+
 #### User Stories / Tasks / Tests
 -     rename the weight column to atomic_mass
 -     rename the melting_point column to melting_point_celsius and the boiling_point column to boiling_point_celsius
@@ -37,14 +46,5 @@ I was started with a periodic_table database that has information about some che
 -     properties table should not have a type column
 -     finish your project while on the main branch. Your working tree should be clean and you should not have any uncommitted changes
 
-#### Part 1: Fix the database
-There are some mistakes in the database that need to be fixed or changed. See the user stories below for what to change.
-
-#### Part 2: Create your git repository
-You need to make a small bash program. The code needs to be version controlled with git, so you will need to turn the suggested folder into a git repository.
-
-#### Part 3: Create the script
-Lastly, you need to make a script that accepts an argument in the form of an atomic number, symbol, or name of an element and outputs some information about the given element.
-
 ##### Notes:
-If you leave your virtual machine, your database may not be saved. You can make a dump of it by entering pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql in a bash terminal (not the psql one). It will save the commands to rebuild your database in periodic_table.sql. The file will be located where the command was entered. If it's anything inside the project folder, the file will be saved in the VM. You can rebuild the database by entering psql -U postgres < periodic_table.sql in a terminal where the .sql file is.
+If you leave your virtual machine, your database may not be saved. You can make a dump of it by entering pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql in a bash terminal. It will save the commands to rebuild your database in periodic_table.sql. The file will be located where the command was entered. If it's anything inside the project folder, the file will be saved in the VM. You can rebuild the database by entering psql -U postgres < periodic_table.sql in a terminal where the .sql file is.
